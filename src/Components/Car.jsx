@@ -17,7 +17,7 @@ function Car() {
     const handler =async(e)=>{
         e.preventDefault()
         
-        const result = await axios.post('https://car-reservation-form.onrender.com//User',formData)
+        const result = await axios.post('https://car-reservation-form.onrender.com/User',formData)
         console.log(result)
 
         console.log("Form submitted:", formData);
